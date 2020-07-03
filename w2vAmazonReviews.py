@@ -1,4 +1,4 @@
-#Basic Importing and starting steps
+#Basic Importing
 
 import sqlite3
 import pandas as pd
@@ -11,14 +11,17 @@ nltk.download("stopwords")
 import gensim
 from tqdm import tqdm
 
+#We define a function to return -ve for 2 or less stars and +ve for 4 or more stars
 def partition(x):
     if x<3:
         return 0
     return 1
 
+#We don't take the scores == 3 because we can't classify them as positive or negative
 con = sqlite3.connect('Amazon_reviews.sqlite')
 data = pd.read_sql_query(""" SELECT * FROM Reviews WHERE Score != 3 LIMIT 1000""", con)
 
+#Basic filter
 actual_score=data["Score"]
 positiveNegative=actual_score.map(partition)
 data["Score"]=positiveNegative
