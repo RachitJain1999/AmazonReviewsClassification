@@ -84,6 +84,7 @@ list_col=tuple(range(50))
 vectorized_data=pd.DataFrame(data=listof_sent_vec, columns=list_col)
 vectorized_data["Score"]=data["Score"]
 vectorized_data["Time"]=data["Time"]
-print(vectorized_data)
 
+#Output the data and write it in csv file
+print(vectorized_data)
 vectorized_data.to_csv("Amazon_reviews_vectorized.csv")
