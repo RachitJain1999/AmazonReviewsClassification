@@ -10,4 +10,5 @@ The features are of 50 dimensions
 
 A csv file is added for someone to see how the data will look after vectorization.
 
-Out of the classification models used, random forest performed best with almost 98% accuracy.
+Out of the classification models used, random forest performed best with almost 98% accuracy and a good confusion matrix.
+We will thus use this classifier to predict the future data.
