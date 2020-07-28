@@ -9,3 +9,5 @@ I have used w2v and only done vectorization for 1000 data pts as the file was to
 The features are of 50 dimensions
 
 A csv file is added for someone to see how the data will look after vectorization.
+
+Out of the classification models used, random forest performed best with almost 98% accuracy.
