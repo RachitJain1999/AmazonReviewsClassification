@@ -5,7 +5,7 @@ The ipython file further uses the created vectorized and filtered out file and p
 
 The actual database could not be uploaded as it is too large. You can download it from kaggle, where it is by the name of "AMAZON FINE FOOD REVIEWS".
 
-I have used w2v and only done vectorization for 1000 data pts as the file was too big for it.
+I have used w2v and only done vectorization for 5000 data pts as the time for vectorization grows very strongly with the number of rows.
 The features are of 50 dimensions
 
 A csv file is added for someone to see how the data will look after vectorization.
