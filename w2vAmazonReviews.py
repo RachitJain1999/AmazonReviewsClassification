@@ -19,7 +19,7 @@ def partition(x):
 
 #We don't take the scores == 3 because we can't classify them as positive or negative
 con = sqlite3.connect('Amazon_reviews.sqlite')
-data = pd.read_sql_query(""" SELECT * FROM Reviews WHERE Score != 3 LIMIT 1000""", con)
+data = pd.read_sql_query(""" SELECT * FROM Reviews WHERE Score != 3 LIMIT 5000""", con)
 
 #Basic filter
 actual_score=data["Score"]
