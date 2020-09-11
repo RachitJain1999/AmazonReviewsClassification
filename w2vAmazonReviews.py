@@ -60,6 +60,7 @@ data["Text"]=cleanedTextArray
 #conversion to vector
 
 list_of_sent=data["Text"]
+#Train word to vec
 w2v_model=gensim.models.Word2Vec(list_of_sent,min_count=5,size=50, workers=4)
 w2v_words=list(w2v_model.wv.vocab)
 
