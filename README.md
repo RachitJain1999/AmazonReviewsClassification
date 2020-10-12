@@ -1,9 +1,10 @@
 # AmazonReviewsClassified
 
-This py file is the python file i used to vectorize a database that had a text field in order to predict the score.
-The ipython file further uses the created vectorized and filtered out file and performs various modelling tasks on it.
+We have amazon reviews dataset which has text reviews of customers, that we will use as our xi and the score will be used for yi.
 
 The actual database could not be uploaded as it is too large. You can download it from kaggle, where it is by the name of "AMAZON FINE FOOD REVIEWS".
+Dataset Link: https://www.kaggle.com/snap/amazon-fine-food-reviews
+Related Article Link: http://i.stanford.edu/~julian/pdfs/www13.pdf
 
 I have used w2v and only done vectorization for 5000 data pts as the time for vectorization grows very strongly with the number of rows.
 The features are of 50 dimensions
