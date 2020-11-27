@@ -1,7 +1,6 @@
 # AmazonReviewsClassified
 
 We have amazon reviews dataset which has text reviews of customers, that we will use as our xi and the score will be used for yi.
-The .py file here does the cleaning and vectorization part while the modelling part is done in the ipython notebook.
 
 The actual database could not be uploaded as it is too large. You can download it from kaggle, where it is by the name of "AMAZON FINE FOOD REVIEWS".
 Dataset Link: https://www.kaggle.com/snap/amazon-fine-food-reviews
