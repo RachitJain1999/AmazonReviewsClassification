@@ -7,6 +7,6 @@ will look after vectorization.
 Out of the classification models used, random forest performed best with almost 98% accuracy and a good confusion matrix. We will thus use this classifier to predict the future 
 data.
 
-The actual dataset could not be uploaded as it is too large. You can download it from kaggle, where it is by the name of "AMAZON FINE FOOD REVIEWS".
+The actual dataset could not be uploaded as it is too large. You can download it from kaggle, where it is by the name of "AMAZON FINE FOOD REVIEWS".<br>
 Dataset Link: https://www.kaggle.com/snap/amazon-fine-food-reviews<br>
 Related Article Link: http://i.stanford.edu/~julian/pdfs/www13.pdf
