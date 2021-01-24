@@ -6,6 +6,8 @@ will look after vectorization. Out of the classification models used, random for
 classifier to predict the future data.
 </p>
 
-The actual dataset could not be uploaded due to its' size. It is availale on kaggle by the name of "Amazon fine food reviews".<br>
+<p align="justify">
+The actual dataset could not be uploaded due to its' size. It is availale on kaggle by the name of "Amazon fine food reviews".
+</p>
 Dataset Link: https://www.kaggle.com/snap/amazon-fine-food-reviews<br>
 Related Article Link: http://i.stanford.edu/~julian/pdfs/www13.pdf
